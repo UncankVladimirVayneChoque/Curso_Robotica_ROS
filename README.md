@@ -1,3 +1,2 @@
 # Curso_Robotica_ROS
-* La carperta 2 corresponde a la practica 2 de publicadores y suscriptores
-* 
+* La carperta "practica_2" corresponde a la Practica 2 de publicadores y suscriptores
