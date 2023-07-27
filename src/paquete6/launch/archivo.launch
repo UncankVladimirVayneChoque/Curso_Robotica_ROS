@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find paquete1)/launch/ejecicio_1.launch"/>
+    <include file="$(find paquete2)/launch/ejecicio_2.launch"/>
+    <include file="$(find paquete3)/launch/ejecicio_3.launch"/>
+    <include file="$(find paquete4)/launch/ejecicio_4.launch"/>
+    <include file="$(find paquete5)/launch/ejecicio_5.launch"/>
+</launch>
