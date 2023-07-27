@@ -1,8 +1,0 @@
-prefix=/home/vayne/Documents/programa_expertos_en_ros/clase_4/ws_practica3/install
-
-Name: paquete5
-Description: Description of paquete5
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

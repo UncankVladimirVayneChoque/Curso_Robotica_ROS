@@ -1,2 +1,0 @@
-paquete1:paquete2:paquete3:paquete4:paquete5:paquete6
--DCATKIN_DEVEL_PREFIX=/home/vayne/Documents/programa_expertos_en_ros/clase_4/ws_practica3/devel -DCMAKE_INSTALL_PREFIX=/home/vayne/Documents/programa_expertos_en_ros/clase_4/ws_practica3/install -G Unix Makefiles

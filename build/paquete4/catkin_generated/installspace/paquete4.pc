@@ -1,8 +1,0 @@
-prefix=/home/vayne/Documents/programa_expertos_en_ros/clase_4/ws_practica3/install
-
-Name: paquete4
-Description: Description of paquete4
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
