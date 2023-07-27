@@ -1,0 +1,8 @@
+prefix=/home/vayne/Documents/programa_expertos_en_ros/clase_4/ws_practica3/devel
+
+Name: paquete3
+Description: Description of paquete3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
