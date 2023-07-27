@@ -1,0 +1,2 @@
+basic_simulation:kuka_kr16_moveit:kuka_kr16_support:kuka_resources
+-DCATKIN_DEVEL_PREFIX=/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/devel -DCMAKE_INSTALL_PREFIX=/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install -G Unix Makefiles
