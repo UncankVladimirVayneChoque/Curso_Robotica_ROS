@@ -1,2 +1,2 @@
 # Curso_Robotica_ROS
-* tarea 3 Workspace and package
+* Tarea 4 programacion inicial a brazo robotico
