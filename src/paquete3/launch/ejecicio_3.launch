@@ -1,6 +1,0 @@
-<launch>
-    <node name="pq3_codigo1_pub" pkg="paquete3" type="pq3_codigo1_pub.py" output="screen"/>
-    <node name="pq3_codigo2_pub" pkg="paquete3" type="pq3_codigo2_pub.py" output="screen"/>
-    <node name="pq3_codigo3_sub_pub" pkg="paquete3" type="pq3_codigo3_sub_pub.py" output="screen"/>
-    <node name="pq3_codigo4_sub" pkg="paquete3" type="pq3_codigo4_sub.py" output="screen"/>
-</launch>
