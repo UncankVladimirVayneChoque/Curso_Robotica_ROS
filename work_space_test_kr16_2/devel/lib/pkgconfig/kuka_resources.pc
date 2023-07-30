@@ -1,8 +1,0 @@
-prefix=/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/devel
-
-Name: kuka_resources
-Description: Description of kuka_resources
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

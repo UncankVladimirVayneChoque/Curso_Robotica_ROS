@@ -1,8 +1,0 @@
-prefix=/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install
-
-Name: basic_simulation
-Description: Description of basic_simulation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
