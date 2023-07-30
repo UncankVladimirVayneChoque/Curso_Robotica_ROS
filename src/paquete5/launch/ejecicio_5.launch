@@ -1,8 +1,0 @@
-<launch>
-    <node name="pq5_codigo1_pub" pkg="paquete5" type="pq5_codigo1_pub.py" output="screen"/>
-    <node name="pq5_codigo2_pub" pkg="paquete5" type="pq5_codigo2_pub.py" output="screen"/>
-    <node name="pq5_codigo3_point_sub_pub" pkg="paquete5" type="pq5_codigo3_point_sub_pub.py" output="screen"/>
-    <node name="pq5_codigo4_quaternion_sub_pub" pkg="paquete5" type="pq5_codigo4_quaternion_sub_pub.py" output="screen"/>
-    <node name="pq5_codigo5_twist_sub_pub" pkg="paquete5" type="pq5_codigo5_twist_sub_pub.py" output="screen"/>
-    <node name="pq5_codigo6_twist_sub" pkg="paquete5" type="pq5_codigo6_twist_sub.py" output="screen"/>
-</launch>
