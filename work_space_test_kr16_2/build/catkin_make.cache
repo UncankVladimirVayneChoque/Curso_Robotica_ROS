@@ -1,2 +1,2 @@
-basic_simulation:entorno:kuka_kr16_moveit:kuka_kr16_support:kuka_resources:secuencia
+ROS-smartPAD/kcp:basic_simulation:kuka_kr16_moveit:kuka_kr16_support:kuka_resources
 -DCATKIN_DEVEL_PREFIX=/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/devel -DCMAKE_INSTALL_PREFIX=/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install -G Unix Makefiles

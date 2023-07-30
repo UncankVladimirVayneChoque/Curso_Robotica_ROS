@@ -132,10 +132,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/gtest/cmake_install.cmake")
   include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/basic_simulation/cmake_install.cmake")
-  include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/entorno/cmake_install.cmake")
+  include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/ROS-smartPAD/kcp/cmake_install.cmake")
   include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_moveit/cmake_install.cmake")
   include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_resources/cmake_install.cmake")
-  include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/secuencia/cmake_install.cmake")
   include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_support/cmake_install.cmake")
 
 endif()

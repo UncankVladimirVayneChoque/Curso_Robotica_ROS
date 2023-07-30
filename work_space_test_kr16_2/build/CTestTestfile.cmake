@@ -6,8 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("basic_simulation")
-subdirs("entorno")
+subdirs("ROS-smartPAD/kcp")
 subdirs("kuka_kr16_moveit")
 subdirs("kuka_resources")
-subdirs("secuencia")
 subdirs("kuka_kr16_support")

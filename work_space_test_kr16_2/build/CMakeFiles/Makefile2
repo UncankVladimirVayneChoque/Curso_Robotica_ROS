@@ -55,10 +55,9 @@ CMAKE_BINARY_DIR = /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16
 # The main recursive "all" target.
 all: gtest/all
 all: basic_simulation/all
-all: entorno/all
+all: ROS-smartPAD/kcp/all
 all: kuka_kr16_moveit/all
 all: kuka_resources/all
-all: secuencia/all
 all: kuka_kr16_support/all
 
 .PHONY : all
@@ -66,10 +65,9 @@ all: kuka_kr16_support/all
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: basic_simulation/preinstall
-preinstall: entorno/preinstall
+preinstall: ROS-smartPAD/kcp/preinstall
 preinstall: kuka_kr16_moveit/preinstall
 preinstall: kuka_resources/preinstall
-preinstall: secuencia/preinstall
 preinstall: kuka_kr16_support/preinstall
 
 .PHONY : preinstall
@@ -82,13 +80,30 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: basic_simulation/clean
-clean: entorno/clean
+clean: ROS-smartPAD/kcp/clean
 clean: kuka_kr16_moveit/clean
 clean: kuka_resources/clean
-clean: secuencia/clean
 clean: kuka_kr16_support/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory ROS-smartPAD/kcp
+
+# Recursive "all" directory target.
+ROS-smartPAD/kcp/all:
+
+.PHONY : ROS-smartPAD/kcp/all
+
+# Recursive "preinstall" directory target.
+ROS-smartPAD/kcp/preinstall:
+
+.PHONY : ROS-smartPAD/kcp/preinstall
+
+# Recursive "clean" directory target.
+ROS-smartPAD/kcp/clean:
+
+.PHONY : ROS-smartPAD/kcp/clean
 
 #=============================================================================
 # Directory level rules for directory basic_simulation
@@ -107,24 +122,6 @@ basic_simulation/preinstall:
 basic_simulation/clean: basic_simulation/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : basic_simulation/clean
-
-#=============================================================================
-# Directory level rules for directory entorno
-
-# Recursive "all" directory target.
-entorno/all:
-
-.PHONY : entorno/all
-
-# Recursive "preinstall" directory target.
-entorno/preinstall:
-
-.PHONY : entorno/preinstall
-
-# Recursive "clean" directory target.
-entorno/clean:
-
-.PHONY : entorno/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -242,24 +239,6 @@ kuka_resources/preinstall:
 kuka_resources/clean:
 
 .PHONY : kuka_resources/clean
-
-#=============================================================================
-# Directory level rules for directory secuencia
-
-# Recursive "all" directory target.
-secuencia/all:
-
-.PHONY : secuencia/all
-
-# Recursive "preinstall" directory target.
-secuencia/preinstall:
-
-.PHONY : secuencia/preinstall
-
-# Recursive "clean" directory target.
-secuencia/clean:
-
-.PHONY : secuencia/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir
