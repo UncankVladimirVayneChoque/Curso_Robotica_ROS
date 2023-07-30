@@ -1,2 +1,2 @@
 # Curso_Robotica_ROS
-* Tarea 3 Workspace and package
+* La carperta "practica_2" corresponde a la Practica 2 de publicadores y suscriptores
