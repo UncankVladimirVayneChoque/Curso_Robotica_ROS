@@ -1,8 +1,0 @@
-prefix=/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install
-
-Name: kuka_kr16_moveit
-Description: Description of kuka_kr16_moveit
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
