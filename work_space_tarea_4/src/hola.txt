@@ -1,1 +1,17 @@
-mmm
+//importante para verificar en que rama estamos en git hub primero ejecutamos 
+ git branch
+ 
+ //luego para cambiar de rama utilizamos
+ git checkout -b "Aqui pones la rama que quieres cambiar"
+
+ //luego para clonar lo que haya en la carpeta 
+ git clone -b "la rama actual que estamo" "link de git
+
+ //Para subir un archivo es importante que te ubiques en la misma carpeta del git para subir
+ supergit
+
+ //luego
+ supergit update
+
+ //luego
+ supergit update "Mensaje que quieras que se aplique en comint"
