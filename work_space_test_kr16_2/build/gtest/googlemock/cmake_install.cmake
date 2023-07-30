@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/gtest/googletest/cmake_install.cmake")
+  include("/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/gtest/googletest/cmake_install.cmake")
 
 endif()
 

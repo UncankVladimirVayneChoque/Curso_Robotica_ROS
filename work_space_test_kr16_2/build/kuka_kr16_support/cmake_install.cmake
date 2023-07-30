@@ -1,8 +1,8 @@
-# Install script for directory: /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_support
+# Install script for directory: /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_support
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_kr16_support/catkin_generated/installspace/kuka_kr16_support.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_support/catkin_generated/installspace/kuka_kr16_support.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_support/cmake" TYPE FILE FILES
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_kr16_support/catkin_generated/installspace/kuka_kr16_supportConfig.cmake"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_kr16_support/catkin_generated/installspace/kuka_kr16_supportConfig-version.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_support/catkin_generated/installspace/kuka_kr16_supportConfig.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_support/catkin_generated/installspace/kuka_kr16_supportConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_support" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_support/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_support" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_support/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_support" TYPE DIRECTORY FILES
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_support/config"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_support/launch"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_support/meshes"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_support/urdf"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_support/config"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_support/launch"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_support/meshes"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_support/urdf"
     )
 endif()
 

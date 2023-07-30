@@ -67,14 +67,14 @@ set(kuka_resources_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kuka_resources_SOURCE_PREFIX /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_resources)
-  set(kuka_resources_DEVEL_PREFIX /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/devel)
+  set(kuka_resources_SOURCE_PREFIX /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_resources)
+  set(kuka_resources_DEVEL_PREFIX /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/devel)
   set(kuka_resources_INSTALL_PREFIX "")
   set(kuka_resources_PREFIX ${kuka_resources_DEVEL_PREFIX})
 else()
   set(kuka_resources_SOURCE_PREFIX "")
   set(kuka_resources_DEVEL_PREFIX "")
-  set(kuka_resources_INSTALL_PREFIX /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install)
+  set(kuka_resources_INSTALL_PREFIX /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install)
   set(kuka_resources_PREFIX ${kuka_resources_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install/lib;/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install/lib;/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

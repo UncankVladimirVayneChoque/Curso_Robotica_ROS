@@ -1,8 +1,8 @@
-# Install script for directory: /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_resources
+# Install script for directory: /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_resources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_resources/catkin_generated/installspace/kuka_resources.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_resources/catkin_generated/installspace/kuka_resources.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources/cmake" TYPE FILE FILES
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig.cmake"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig-version.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_resources/catkin_generated/installspace/kuka_resourcesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_resources/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_resources/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE DIRECTORY FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_resources/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_resources" TYPE DIRECTORY FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_resources/urdf")
 endif()
 

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build'
+export PWD='/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build'

@@ -1,8 +1,8 @@
-# Install script for directory: /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/basic_simulation
+# Install script for directory: /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/basic_simulation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/basic_simulation/catkin_generated/installspace/basic_simulation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/basic_simulation/catkin_generated/installspace/basic_simulation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_simulation/cmake" TYPE FILE FILES
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/basic_simulation/catkin_generated/installspace/basic_simulationConfig.cmake"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/basic_simulation/catkin_generated/installspace/basic_simulationConfig-version.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/basic_simulation/catkin_generated/installspace/basic_simulationConfig.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/basic_simulation/catkin_generated/installspace/basic_simulationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_simulation" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/basic_simulation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_simulation" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/basic_simulation/package.xml")
 endif()
 

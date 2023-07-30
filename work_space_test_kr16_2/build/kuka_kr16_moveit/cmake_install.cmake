@@ -1,8 +1,8 @@
-# Install script for directory: /home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_moveit
+# Install script for directory: /home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_moveit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_kr16_moveit/catkin_generated/installspace/kuka_kr16_moveit.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_moveit/catkin_generated/installspace/kuka_kr16_moveit.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit/cmake" TYPE FILE FILES
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_kr16_moveit/catkin_generated/installspace/kuka_kr16_moveitConfig.cmake"
-    "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/build/kuka_kr16_moveit/catkin_generated/installspace/kuka_kr16_moveitConfig-version.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_moveit/catkin_generated/installspace/kuka_kr16_moveitConfig.cmake"
+    "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/build/kuka_kr16_moveit/catkin_generated/installspace/kuka_kr16_moveitConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit" TYPE FILE FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_moveit/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit" TYPE FILE FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_moveit/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit" TYPE DIRECTORY FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit" TYPE DIRECTORY FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_moveit/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit" TYPE DIRECTORY FILES "/home/vayne/Documents/programa_expertos_en_ros/clase_5/work_space_test_kr16_2/src/kuka_kr16_moveit/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kuka_kr16_moveit" TYPE DIRECTORY FILES "/home/vayne/Documents/Curso_Robotica_ROS/work_space_test_kr16_2/src/kuka_kr16_moveit/config")
 endif()
 
